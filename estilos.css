@@ -2133,3 +2133,31 @@ html, body {
         font-size: 1.6rem !important; /* Tamaño adaptado para celulares */
     }
 }
+/* =========================================
+   CORREGIR TEXTOS AZULES O SUBRAYADOS
+========================================= */
+
+/* Evitar que los párrafos normales agarren estilo de enlace o se subrayen */
+.diapositiva p:not(.subtitulo):not(.fecha):not(.hora):not(.referencia):not(.aviso) {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Forzar que los textos de "Compartamos nuestros recuerdos" y similares se vean bien */
+.carpeta-fotos p,
+.playlist p,
+.mensaje p,
+.regalos p,
+.evento p {
+    color: #444 !important; /* O el color de texto que uses en las diapositivas blancas */
+    text-decoration: none !important;
+}
+
+/* Si pasa en las diapositivas bordó */
+.invitacion p,
+.texto-biblico p,
+.dress-code p,
+.cierre p {
+    color: #fff !important;
+    text-decoration: none !important;
+}
