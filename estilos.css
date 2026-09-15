@@ -2161,3 +2161,8 @@ html, body {
     color: #fff !important;
     text-decoration: none !important;
 }
+.diapositiva.bordo h2, 
+.diapositiva.bordo .subtitulo, 
+.diapositiva.bordo p {
+    color: #ffffff !important;
+}
